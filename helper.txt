@@ -1,0 +1,19 @@
+To start express project, make sure of
+    run below command only once in fresh computer
+    npm install -g express-generator
+    npm install -g express
+To initialize the project
+    In predetermined project folder: express
+    Or: express project_name
+once express project created
+    npm install
+
+
+Ecommerce
+Users
+Products
+Payment
+Orders
+Review
+
+MVC

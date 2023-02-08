@@ -1,0 +1,23 @@
+view all databases: show databases
+create a new or switch databases: use dbName
+view current database: db
+delete database: db.dropDatabase()
+
+show collections: show collections
+create a collection named 'users': db.createCollection("users")
+drop a collection name "users": db.users.drop();
+
+show all rows in collection: db.users.find()
+show all rows in a collection prettified: db.users.find().preety()
+find row matching the object: db.users.find({name: "ram"})
+
+insert one row: 
+    db.users.insert({
+        'name': 'ram',
+    })
+insert multiple row:
+    db.users.insert([{
+        'name': 'ram',
+    },{
+        'name': 'hari',
+    }])

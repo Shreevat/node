@@ -1,0 +1,11 @@
+file,
+relational databases
+    MySQL, POSTGRES,
+
+non relational databases
+    mongo, cassandra, 
+
+SQL                         | NoSQL
+Structured Query Language     Not only SQL
+relational databases          Non relational databases
+MySQL, POSTGRES               mongo, cassandra
